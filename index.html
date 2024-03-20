@@ -2,54 +2,51 @@
 <html lang="es">
     <head>
         <title>Mi página web</title>
+        <link rel="stylesheet" type="text/css" href="./estilo.css">
+        <link rel="stylesheet" href="./reset.css">
     </head>
-    <body>
+    <body class="fondo">
         
         <header>
-            <h1>Mi página web</h1>
-                <span>HOME</span>
-                <span>PARTIDOS</span>
-                <span>RESULTADOS</span>
+            <div id="titulos">
+                <h1 class="miTexto">Mi pagina web</h1>
+                    <p>
+                        Lucas Fernandez
+                    </p>
+            </div>
         </header>
 
         <main>
 
-            <img src="./0TQd5Oo9x_600x600__1.jpg" alt="El Miguelon">
+            
 
             <section>
 
                 <h2>Este es el titulo de mi section</h2>
+                
+                    <div id="cards-container">
 
-                <article>
-                    <h2> Resultados de partdos</h2>
-                        <div>
-                            <p>
-                                lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum assumenda consequuntur repellendus necessitatibus at quaerat tempore sint reprehenderit eos animi consequatur ut laudantium, esse veniam tenetur optio rem? Pariatur, vel? 
-                            </p>
-                        </div>
-                        
-                </article>
+                        <article class="cards">
+                            <h3 class="titleCards"> Merentiel</h2>
+                                <div>
+                                    <p>
+                                        <img src="./0TQd5Oo9x_600x600__1.jpg" alt="El Miguelon" class="imgMerentiel">
+                                    </p>
+                                </div>
+                                
+                        </article>
 
-                <article>
-                    <h3>Lista de cosas importantes</h3>
-                    <ol>        
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
-                    </ol>
-                </article>
+                        <article class="cards">
+                            <h3 class="titleCards">Merentiel 2</h3>
+                            <img src="./Merentiel 2.jpeg" alt="" class="imgMerentiel">
+                        </article>
 
-                <article>
-                    <h3>Noticia 3</h3>
-                        <p>
-                            Esta lista no esta ordenada
-                        </p>
+                        <article class="cards">
+                            <h3 class="titleCards">Merentiel 3</h3>
+                            <img src="./Merentiel 3.jpeg" alt="" class="imgMerentiel">
+                        </article>
 
-                        <ul>
-                            <li>item 2</li>
-                            <li>item 4</li>
-                        </ul>
-                </article>
+                     </div>  
 
             </section>
 

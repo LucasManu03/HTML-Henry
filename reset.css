@@ -1,0 +1,55 @@
+/* Reset CSS básico */
+
+/* Establecer márgenes y rellenos en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para incluir el padding y border en el ancho y alto */
+}
+
+/* Establecer estilos básicos para elementos de texto */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos básicos para listas */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Establecer estilos básicos para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer estilos básicos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Opcional: resetear estilos de formularios */
+input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    /* Agregar cualquier otro estilo específico de acuerdo a tus necesidades */
+}
+
+/* Opcional: establecer estilos específicos para elementos de formulario */
+input[type="text"],
+input[type="password"],
+textarea {
+    /* Estilos específicos para inputs de texto y textarea */
+}
+
+button {
+    /* Estilos específicos para botones */
+}
+
+/* Puedes añadir más reseteos específicos según tus necesidades */

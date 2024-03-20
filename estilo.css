@@ -1,0 +1,46 @@
+.imgMerentiel{
+    width: 23em;
+}
+#titulos{
+    border: 2px solid black;
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+.titleCards{
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.cards:hover{
+    background-color: rgb(39, 9, 173);
+    .titleCards{
+        color: white;
+    }
+}
+#cards-container{
+    background-color: rgb(255, 251, 0);
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    border: 2px solid black;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
